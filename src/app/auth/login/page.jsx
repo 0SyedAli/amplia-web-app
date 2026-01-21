@@ -15,7 +15,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="auth-content h-auto">
+    <div className="auth-content" style={{height:"fit-content", alignSelf:"center"}}>
       <h1 className="auth-title">Sign in</h1>
       <p className="auth-subtitle">Welcome back. Access your amplia dashboard.</p>
 
@@ -54,7 +54,7 @@ export default function LoginPage() {
           </div>
           <button
             type="button"
-            className="btn btn-link p-0 auth-link small text-decoration-none"
+            className="btn btn-link p-0 auth-link small text-decoration-none border-0"
           >
             Forgot password?
           </button>
@@ -62,7 +62,7 @@ export default function LoginPage() {
 
         <button
           type="submit"
-          className="btn auth-primary-btn w-100"
+          className="btn primary text-center align-items-center w-100"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Signing in..." : "Sign in"}

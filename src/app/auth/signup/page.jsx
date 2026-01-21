@@ -113,7 +113,7 @@ export default function SignupPage() {
 
         <button
           type="submit"
-          className="btn auth-primary-btn w-100"
+          className="btn primary text-center justify-content-center w-100"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Getting started..." : "Get Started"}
