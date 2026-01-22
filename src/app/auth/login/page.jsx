@@ -25,7 +25,7 @@ export default function LoginPage() {
           <input
             type="email"
             className="form-control auth-input"
-            placeholder="name@school.edu"
+            placeholder="name@abc.com"
             {...register("email")}
           />
         </div>

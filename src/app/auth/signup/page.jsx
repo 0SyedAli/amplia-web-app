@@ -61,39 +61,6 @@ export default function SignupPage() {
           </div>
         </div>
 
-        <div className="mb-3">
-          <label className="auth-label">Choose City</label>
-          <select
-            className="form-select auth-input"
-            {...register("city")}
-            defaultValue=""
-          >
-            <option value="" disabled>
-              Choose City
-            </option>
-            <option value="lahore">Lahore</option>
-            <option value="karachi">Karachi</option>
-            <option value="islamabad">Islamabad</option>
-          </select>
-        </div>
-
-        <div className="mb-3">
-          <label className="auth-label">Select your role to continue</label>
-          <select
-            className="form-select auth-input"
-            {...register("role")}
-            defaultValue=""
-          >
-            <option value="" disabled>
-              Select your role to continue
-            </option>
-            <option value="student">Student</option>
-            <option value="parent">Parent</option>
-            <option value="teacher">Teacher</option>
-            <option value="admin">Administrator</option>
-          </select>
-        </div>
-
         <div className="d-flex justify-content-between align-items-center mb-3">
           <div className="form-check">
             <input
