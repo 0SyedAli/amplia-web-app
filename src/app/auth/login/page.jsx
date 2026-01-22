@@ -62,7 +62,7 @@ export default function LoginPage() {
 
         <button
           type="submit"
-          className="btn primary text-center align-items-center w-100"
+          className="btn primary text-center justify-content-center w-100"
           disabled={isSubmitting}
         >
           {isSubmitting ? "Signing in..." : "Sign in"}
