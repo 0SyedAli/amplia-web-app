@@ -47,7 +47,7 @@ export default function SignupPage() {
             <label className="auth-label">Code</label>
             <input
               className="form-control auth-input"
-              placeholder="+92"
+              placeholder="+1"
               {...register("code")}
             />
           </div>

@@ -253,6 +253,7 @@ table th {
   border-radius: 24px;
   overflow: hidden;
   background: #0f172a;
+  border-top: 1px solid #FFF;
   display: flex;
   flex-direction: column;
   max-width: 420px;
@@ -412,7 +413,7 @@ table th {
   position: sticky;
   top: 0;
   z-index: 100;
-  background-color: #FFF;
+  background-color: #f7fbfb;
 }
 
 .topbar p {
@@ -996,6 +997,17 @@ table th {
 }
 
 /* RESPONSIVE */
+@media (max-width: 1299px) {
+  .amplia-item {
+    padding: 11px 18px;
+    font-size: 13px;
+  }
+
+  .amplia-logo img {
+    width: 150px;
+  }
+}
+
 @media (max-width: 900px) {
   .services-grid {
     grid-template-columns: 1fr;
